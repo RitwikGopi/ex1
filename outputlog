@@ -90,3 +90,50 @@ Number of LINES=2 TABS=2 BLANKS=5
  ex9
 INPUT TEXT = Hello   how     are  you?
 Hello how are you?
+ex12
+INPUT= README.md
+K
+R
+c
+programming
+exercises
+Added
+output
+log
+in
+which
+output
+of
+each
+program
+is
+recorded
+ ex13 & ex13b
+INPUT : My name is Ritwik &
+I am from thrisur...
+--
+----
+--
+------
+-
+--
+----
+-------
+       |
+   |   |
+   |   |
+ | |  ||
+ | |  ||
+|||| |||
+||||||||
+ex14
+INPUT : README.md
+                            r           
+      e                 o   r           
+      e                 o   r           
+  c d e       i         o   r           
+a c d e   g   i         o p r   t u     
+a c d e   g h i     m   o p r s t u     
+a c d e   g h i     m n o p r s t u     
+a c d e f g h i k l m n o p r s t u w x 
+a c d e f g h i k l m n o p r s t u w x 
