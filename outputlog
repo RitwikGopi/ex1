@@ -137,3 +137,28 @@ a c d e   g h i     m   o p r s t u
 a c d e   g h i     m n o p r s t u     
 a c d e f g h i k l m n o p r s t u w x 
 a c d e f g h i k l m n o p r s t u w x 
+EX17
+INPUT FILE: SAMPLE TEXT
+/home/stark/[ZippyMovieZ.Com] Valiyavan [2015 - Tamil DvDScr - AAC - 700MB  - ZippyMovieZ]/[ZippyMovieZ.Com] Valiyavan [2015 - Tamil DvDScr - AAC - 700MB  - ZippyMovieZ].mp4
+/home/stark/Downloads/Tutorial Android Internals - Building a Custom ROM, Pt. 1 of 2.mp4
+/home/stark/Downloads/BHEEMA 2008 _ VIKRAM _ TRISHA _ PRAKASH RAJ _ FULL MOVIE HD.mp4
+/home/stark/Downloads/Tutorial Android Internals - Building a Custom ROM, Pt. 2 of 2.mp4
+/home/stark/Downloads/Gold Fingers - How to Recover Gold from Electronic Scrap.mp4
+/home/stark/Downloads/Linux Kernel Module Programming - 04 Passing Arugments to Kernel Module.mp4
+/home/stark/Downloads/Linux Kernel Module Programming - 03 Coding, Compiling the Module.mp4
+/home/stark/Downloads/Mozhi 2007 _ Jyothika _ Prithviraj _ Prakash Raj _ Tamil Full Movie w English Subtitle.mp4
+ex18
+Hello how are you?
+What is your name?
+INPUT
+Hello how are you?
+
+What is your name?   
+
+
+EX19
+INPUT: C programming is awsome
+I love it
+emoswa si gnimmargorp C
+ti evol I
+
