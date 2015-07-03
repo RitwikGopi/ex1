@@ -3,10 +3,11 @@
 **************************************************************************/
 
 #include <stdio.h>
+#define linelength 50
 
-int i=10;
-char s[11],s2[11];
-int temp=10;
+int i=linelength;
+char s[linelength+1],s2[linelength+1];
+int temp=linelength;
 
 int line(){
 	memset(s,' ', sizeof s);
@@ -16,7 +17,7 @@ int line(){
 		j++;
 	}
 	i=j;
-	while((c=getchar())!='\n' && c!='\0' && i<10 && c!=EOF)
+	while((c=getchar())!='\n' && c!='\0' && i<linelength && c!=EOF)
 		s[i++]=c;
 	temp=i;
 	s[i++]=c;
@@ -27,6 +28,8 @@ void adjustline(){
 	int c;
 	while(i>0){
 		if(s[--i]==' ' || s[i]=='\t' || s[i]=='\n' || s[i]=='\0' ||s[i]==EOF){
+			if(s[i]==EOF)
+				return;
 			if(s[i]=='\n')
 				s[i]=' ';
 			printf("%s\n",s);
@@ -39,9 +42,9 @@ void adjustline(){
 	}
 	
 	strcpy(s,s2);
-	s[10]='-';
+	s[linelength]='-';
 	printf("%s\n",s);
-	i=9;
+	i=linelength-1;
 }
 
 main(){
