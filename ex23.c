@@ -2,7 +2,7 @@
 
 
 main(){
-	int c;
+	int c,pc;
 	 while((c=getchar())!=EOF){
 		 if(c=='\"'){
 			 putchar(c);
@@ -20,6 +20,11 @@ main(){
 			 if((c=getchar())=='/'){
 				 while((c=getchar())!='\n' && c!=EOF);
 				 putchar('\n');
+				 continue;
+			 }
+			 else if(c=='*'){
+				 while((c=getchar())!='/' || pc!='*')
+					 pc=c;
 				 continue;
 			 }
 			 else{

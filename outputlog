@@ -199,3 +199,32 @@ files before putting it on quarantine or removing
 it. For example, you could be using Wine and by    
 deleting an infected file you could break a        
 program without having saved some data.            
+EX23
+INPUT FILE : sample.c
+/*********************************************************************
+  			faran heat to celcius 
+ *********************************************************************/
+
+#include <stdio.h>
+
+main(){
+	float f,c;
+	printf("\nFAHRENHEIT//\tCELSIUS\n");// Prints farren heat
+	for(f=0;f<=300;f+=20){
+		c=5*(f-32)/9;
+		printf("%10.0f\t%4.3f\n",f,c); // Prints something
+	}/*En of program*/
+}
+
+
+OUTPUT: commentless.c
+#include <stdio.h>
+
+main(){
+	float f,c;
+	printf("\nFAHRENHEIT//\tCELSIUS\n");
+	for(f=0;f<=300;f+=20){
+		c=5*(f-32)/9;
+		printf("%10.0f\t%4.3f\n",f,c); 
+	}
+}
