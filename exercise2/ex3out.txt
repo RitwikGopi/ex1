@@ -1,0 +1,1 @@
+Enter a hexadecimal number : Decimal equivalent of 0xff2653ec = 4280701932
