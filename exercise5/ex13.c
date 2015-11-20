@@ -3,7 +3,7 @@
 main(int argc, char *argv[]){
 	int n = 10;
 	int i = 0, c = 1;
-	if( *(*(argv+c)+ i++) == '-'){
+	if( (*(argv+c))[ i++] == '-'){
 		n = 0;
 		while(*(*(argv+c)+ i) != NULL)
 			n = n*10 + *(*(argv+c)+ i++) - '0';
